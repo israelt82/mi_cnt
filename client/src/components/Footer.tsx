@@ -1,4 +1,5 @@
 import { Heart, Mail, Phone, MapPin } from "lucide-react";
+import logoImage from "@assets/Medalla NO EDICION_1757546388635.png";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -23,10 +24,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <span className="font-bold text-foreground text-lg">CT</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src={logoImage} 
+                alt="Copa Nacional Tasquillo Logo" 
+                className="h-12 w-auto"
+                data-testid="img-logo-footer"
+              />
               <div>
                 <h3 className="font-bold text-lg">Copa Nacional Tasquillo</h3>
                 <p className="text-sm text-background/80">Basquetbol Infantil y Juvenil</p>

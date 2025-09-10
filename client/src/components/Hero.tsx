@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download, Calendar, Users, Trophy } from "lucide-react";
 import heroImage from "@assets/generated_images/Youth_basketball_tournament_action_2c4f1795.png";
+import logoImage from "@assets/Medalla NO EDICION_1757546388635.png";
 
 export default function Hero() {
   return (
@@ -15,6 +16,16 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-background">
         <div className="max-w-4xl mx-auto">
+          {/* Logo */}
+          <div className="mb-8">
+            <img 
+              src={logoImage} 
+              alt="Copa Nacional Tasquillo Logo" 
+              className="h-32 md:h-40 w-auto mx-auto"
+              data-testid="img-logo-hero"
+            />
+          </div>
+          
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Copa Nacional 
             <span className="text-primary"> Tasquillo</span>

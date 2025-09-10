@@ -1,6 +1,7 @@
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import logoImage from "@assets/Medalla NO EDICION_1757546388635.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,11 +21,14 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-              <span className="font-bold text-foreground text-lg">CT</span>
-            </div>
-            <div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src={logoImage} 
+              alt="Copa Nacional Tasquillo Logo" 
+              className="h-12 w-auto"
+              data-testid="img-logo-header"
+            />
+            <div className="hidden sm:block">
               <h1 className="font-bold text-lg">Copa Nacional Tasquillo</h1>
               <p className="text-sm text-background/80">Basquetbol Infantil y Juvenil</p>
             </div>
