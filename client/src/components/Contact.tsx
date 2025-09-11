@@ -38,7 +38,7 @@ export default function Contact() {
     {
       icon: Clock,
       title: "Horario de Atención",
-      value: "Lun - Vie: 9:00 AM - 6:00 PM",
+      value: "Lun - Sab: 9:00 AM - 9:00 PM",
       action: null
     }
   ];
@@ -73,7 +73,7 @@ export default function Contact() {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-muted-foreground mb-6">
-                  ¿Tienes preguntas sobre el torneo? Escríbenos por WhatsApp y te respondemos al instante.
+                  ¿Tienes preguntas sobre la Copa Tasquilo? Escríbenos por WhatsApp y te respondemos al instante.
                 </p>
                 <Button 
                   size="lg" 
@@ -164,7 +164,7 @@ export default function Contact() {
               <div className="text-sm text-muted-foreground">Tiempo de Respuesta</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">1000+</div>
+              <div className="text-2xl font-bold text-primary">5000+</div>
               <div className="text-sm text-muted-foreground">Seguidores</div>
             </div>
             <div className="text-center">
