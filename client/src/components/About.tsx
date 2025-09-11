@@ -4,14 +4,14 @@ import { Users, Target, Award, Heart } from "lucide-react";
 export default function About() {
   const categories = [
     {
-      title: "Categoría Infantil",
-      description: "Para jóvenes deportistas de 8 a 12 años que dan sus primeros pasos en el basquetbol competitivo.",
+      title: "Categorías mixtas",
+      description: "Para niñas y niños deportistas de primaria que dan sus primeros pasos en el basquetbol infantil (chupon, micro y mini)",
       icon: Users,
-      features: ["Desarrollo de habilidades básicas", "Enfoque en diversión y aprendizaje", "Reglas adaptadas a la edad"]
+      features: ["Desarrollo de habilidades básicas", "Enfoque en diversión y aprendizaje"]
     },
     {
-      title: "Categoría Juvenil", 
-      description: "Para atletas de 13 a 17 años que buscan competir al más alto nivel y perfeccionar su juego.",
+      title: "Categoría por rama (femenil y varonil)", 
+      description: "Dirigido a atletas de secundaria, preparatoria y universidad que desean llevar su juego al máximo nivel, perfeccionar sus habilidades y competir en categorías de élite: Pasarela, Cadete, Juvenil y Universitaria.",
       icon: Target,
       features: ["Competencia de alto nivel", "Desarrollo de estrategias avanzadas", "Preparación para ligas mayores"]
     }
@@ -26,7 +26,7 @@ export default function About() {
     {
       icon: Heart,
       title: "Formación Integral",
-      description: "Más que un torneo, somos una escuela de valores y disciplina para nuestros jóvenes."
+      description: "Un torneo que inspira disciplina y valores en cada niña, niño y joven participante."
     }
   ];
 
@@ -38,8 +38,8 @@ export default function About() {
             Sobre la Copa Nacional Tasquillo
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Desde hace 4 años, hemos estado formando a los futuros talentos del basquetbol mexicano. 
-            Nuestro torneo es más que una competencia: es una celebración del deporte, la amistad y el crecimiento personal.
+            Más que un torneo: un espacio para el deporte, la amistad y el crecimiento de los jóvenes atletas.. 
+            La Copa Nacional Tasquillo: es una celebración del deporte, la amistad y el crecimiento personal.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ export default function About() {
               <p className="text-lg leading-relaxed text-muted-foreground">
                 Crear un espacio donde miles de deportistas puedan demostrar su talento, 
                 desarrollar sus habilidades y crear recuerdos inolvidables mientras compiten 
-                al más alto nivel en un ambiente de respeto y camaradería.
+                al más alto nivel en un ambiente de respeto y amistad.
               </p>
             </CardContent>
           </Card>
@@ -59,7 +59,7 @@ export default function About() {
 
         {/* Categories */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-center mb-8">Categorías de Competencia</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">Categorías</h3>
           <div className="grid md:grid-cols-2 gap-8">
             {categories.map((category, index) => (
               <Card key={index} className="hover-elevate">
