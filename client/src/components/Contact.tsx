@@ -6,7 +6,7 @@ import { Phone, MessageCircle, MapPin, Clock, Mail, Facebook, Instagram, Twitter
 export default function Contact() {
   const handleWhatsAppClick = () => {
     // Mock WhatsApp contact //todo: remove mock functionality
-    const phoneNumber = "5215512345678"; // Replace with actual number
+    const phoneNumber = "7752420347"; // Replace with actual number
     const message = encodeURIComponent("Hola, me interesa participar en la Copa Nacional Tasquillo. ¿Podrían proporcionarme más información?");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
@@ -20,14 +20,14 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Teléfono",
-      value: "+52 (551) 234-5678",
-      action: () => window.open("tel:+525512345678")
+      value: "7752420347",
+      action: () => window.open("tel:7752420347")
     },
     {
       icon: Mail,
       title: "Email",
-      value: "info@copanacionaltasquillo.mx",
-      action: () => window.open("mailto:info@copanacionaltasquillo.mx")
+      value: "copanacionaltasquillo@gmail.com",
+      action: () => window.open("mailto:copanacionaltasquillo@gmail.com")
     },
     {
       icon: MapPin,
