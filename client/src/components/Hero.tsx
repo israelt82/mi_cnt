@@ -34,7 +34,7 @@ export default function Hero() {
             Torneo de Basquetbol Infantil y Juvenil
           </p>
           <p className="text-lg md:text-xl mb-8 text-background/80 max-w-2xl mx-auto">
-            4 años conectando a miles de deportistas en el evento de basquetbol más importante de la región
+            4 años conectando a miles de deportistas en el evento de basquetbol más importante de Hidalgo y del centro del pais.
           </p>
 
           {/* Stats */}
@@ -50,21 +50,21 @@ export default function Hero() {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-primary rounded-full mb-2">
                 <Users className="w-6 h-6 text-foreground" />
               </div>
-              <div className="text-2xl font-bold text-primary">1000+</div>
+              <div className="text-2xl font-bold text-primary">6000+</div>
               <div className="text-sm text-background/80">Deportistas</div>
             </div>
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-12 h-12 bg-primary rounded-full mb-2">
                 <Trophy className="w-6 h-6 text-foreground" />
               </div>
-              <div className="text-2xl font-bold text-primary">2</div>
-              <div className="text-sm text-background/80">Categorías</div>
+              <div className="text-2xl font-bold text-primary">12</div>
+              <div className="text-sm text-background/80">Categorías / Ramas</div>
             </div>
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-12 h-12 bg-primary rounded-full mb-2">
                 <Users className="w-6 h-6 text-foreground" />
               </div>
-              <div className="text-2xl font-bold text-primary">50+</div>
+              <div className="text-2xl font-bold text-primary">160+</div>
               <div className="text-sm text-background/80">Equipos</div>
             </div>
           </div>
