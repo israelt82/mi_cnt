@@ -38,8 +38,7 @@ export default function About() {
             Sobre la Copa Nacional Tasquillo
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Más que un torneo: un espacio para el deporte, la amistad y el crecimiento de los jóvenes atletas.. 
-            La Copa Nacional Tasquillo: es una celebración del deporte, la amistad y el crecimiento personal.
+            Más que un torneo, es una experiencia de deporte, amistad y crecimiento personal. Reconocida como el mejor evento de baloncesto en Hidalgo y uno de los top 5 de México, reúne a los jóvenes talentos más prometedores del país.
           </p>
         </div>
 
@@ -49,7 +48,7 @@ export default function About() {
             <CardContent className="p-8 text-center">
               <h3 className="text-2xl font-bold mb-4 text-primary">Nuestra Misión</h3>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Crear un espacio donde miles de deportistas puedan demostrar su talento, 
+                Queremos brindar un espacio donde miles de deportistas puedan demostrar su talento, 
                 desarrollar sus habilidades y crear recuerdos inolvidables mientras compiten 
                 al más alto nivel en un ambiente de respeto y amistad.
               </p>
