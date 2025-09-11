@@ -38,7 +38,9 @@ export default function About() {
             Sobre la Copa Nacional Tasquillo
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Más que un torneo, es una experiencia de deporte, amistad y crecimiento personal. Reconocida como el mejor evento de baloncesto en Hidalgo y uno de los top 5 de México, reúne a los jóvenes talentos más prometedores del país.
+            Más que un torneo, es una experiencia de deporte, amistad y crecimiento personal. 
+            Reconocida como el mejor evento de baloncesto en Hidalgo y uno de los top 5 de México, 
+            reúne a los jóvenes talentos más prometedores del país.
           </p>
         </div>
 
