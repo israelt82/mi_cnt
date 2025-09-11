@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import logoImage from "@assets/Medalla NO EDICION_1757546388635.png";
 
+
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -15,6 +16,18 @@ export default function Header() {
     { label: "Descargas", href: "#descargas" },
     { label: "Contacto", href: "#contacto" },
   ];
+
+   const handleWhatsAppClick = () => {
+    // Número en formato internacional sin "+" ni espacios
+    const phone = "527752420347"; 
+    const message = "Hola, quiero más información sobre la Copa Nacional Tasquillo"; 
+
+    // Construye la URL de WhatsApp
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+    // Abre en nueva pestaña
+    window.open(url, "_blank");
+  };
 
   return (
     <header className="sticky top-0 z-50 bg-foreground text-background border-b border-primary">
@@ -50,8 +63,8 @@ export default function Header() {
               variant="default" 
               size="sm"
               data-testid="button-whatsapp-header"
-              className="bg-primary text-foreground hover:bg-primary/90"
-            >
+              onClick={handleWhatsAppClick}
+              className="bg-primary text-foreground hover:bg-primary/90">
               <Phone className="w-4 h-4 mr-2" />
               WhatsApp
             </Button>
