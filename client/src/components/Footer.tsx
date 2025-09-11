@@ -38,7 +38,8 @@ export default function Footer() {
             </div>
             <p className="text-background/80 mb-4 max-w-md">
               Formando campeones desde 2021. El torneo de basquetbol más importante 
-              para jóvenes deportistas, donde el talento se encuentra con la pasión.
+              en Hidalgo y uno de los mejores eventos del pais, enfocado en jóvenes deportistas, 
+              donde puedan crecer y demostras su casta de campeones.
             </p>
             <div className="flex items-center space-x-4 text-sm">
               <div className="flex items-center space-x-1">
@@ -47,7 +48,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-1">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+52 (551) 234-5678</span>
+                <span>+52 7752420347</span>
               </div>
             </div>
           </div>
@@ -105,7 +106,7 @@ export default function Footer() {
                 data-testid="link-newsletter-email"
                 className="text-background/80 hover:text-primary transition-colors duration-200"
               >
-                info@copanacionaltasquillo.mx
+                copanacionaltasquillo@gmail.com
               </a>
             </div>
           </div>
