@@ -40,7 +40,7 @@ export default function About() {
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Más que un torneo, es una experiencia de deporte, amistad y crecimiento personal. 
             Somos reconocidos como el mejor evento de baloncesto en <b>Hidalgo</b> y uno de los <b>TOP 5 de México</b>, 
-            Tasquillo reune a los jóvenes talentos más prometedores del país.
+            Tasquillo sede del mejor basquetbol del pais.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function About() {
             <CardContent className="p-8 text-center">
               <h3 className="text-2xl font-bold mb-4 text-primary">Nuestra Misión</h3>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Queremos brindar un espacio donde miles de deportistas puedan demostrar su talento, 
+                Queremos brindar espacios donde miles de deportistas puedan demostrar su talento, 
                 desarrollar sus habilidades y crear recuerdos inolvidables mientras compiten 
                 al más alto nivel en un ambiente de respeto y amistad.
               </p>
