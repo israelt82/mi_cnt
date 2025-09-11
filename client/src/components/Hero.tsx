@@ -50,7 +50,7 @@ export default function Hero() {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-primary rounded-full mb-2">
                 <Users className="w-6 h-6 text-foreground" />
               </div>
-              <div className="text-2xl font-bold text-primary">6000+</div>
+              <div className="text-2xl font-bold text-primary">5,000+</div>
               <div className="text-sm text-background/80">Deportistas</div>
             </div>
             <div className="text-center">
@@ -64,7 +64,7 @@ export default function Hero() {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-primary rounded-full mb-2">
                 <Users className="w-6 h-6 text-foreground" />
               </div>
-              <div className="text-2xl font-bold text-primary">160+</div>
+              <div className="text-2xl font-bold text-primary">170+</div>
               <div className="text-sm text-background/80">Equipos</div>
             </div>
           </div>
