@@ -39,8 +39,8 @@ export default function About() {
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Más que un torneo, es una experiencia de deporte, amistad y crecimiento personal. 
-            Reconocida como el mejor evento de baloncesto en<b>Hidalgo y uno de los top 5 de México</b>, 
-            reúne a los jóvenes talentos más prometedores del país.
+            Somos reconocidos como el mejor evento de baloncesto en <b>Hidalgo</b> y uno de los <b>TOP 5 de México</b>, 
+            Tasquillo reune a los jóvenes talentos más prometedores del país.
           </p>
         </div>
 
