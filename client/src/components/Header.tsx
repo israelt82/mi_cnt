@@ -101,6 +101,7 @@ export default function Header() {
                 variant="default" 
                 size="sm"
                 data-testid="button-whatsapp-mobile"
+                onClick={handleWhatsAppClick}
                 className="bg-primary text-foreground hover:bg-primary/90 self-start mt-4"
               >
                 <Phone className="w-4 h-4 mr-2" />
