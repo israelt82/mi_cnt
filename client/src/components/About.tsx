@@ -5,7 +5,7 @@ export default function About() {
   const categories = [
     {
       title: "Categorías mixtas",
-      description: "Para niñas y niños deportistas de primaria que dan sus primeros pasos en el basquetbol infantil (chupon, micro y mini)",
+      description: "Para 👧 niñas y niños deportistas de primaria que dan sus primeros pasos en el basquetbol infantil (chupon, micro y mini)",
       icon: Users,
       features: ["Desarrollo de habilidades básicas", "Enfoque en diversión y aprendizaje"]
     },
